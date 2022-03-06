@@ -1,7 +1,29 @@
+// nav bar
 #nav-bar {
-    display: none;
+    position: absolute;
+    background-color: rgba(148, 136, 136, 0.623);
+    width: 100%;
+    height: 100%;
+    right: 0;
+    overflow: hidden;
 }
 
+#nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    
+}
+
+#nav-bar ul li {
+    display: list-item;
+    margin-top: 4em;
+    color: $orange-color;
+    font-size: 2em;
+}
+
+// burger menu
 .check-div {
     margin: 1em;
     width: 2.5em;
