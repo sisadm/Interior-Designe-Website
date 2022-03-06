@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/base/_typography.scss","../scss/utilities/_mixins.scss","../scss/layout/_comapny-name.scss"],"names":[],"mappings":"AACQ;AAGR;ECHI;;;ACDJ;EACI","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/base/_typography.scss","../scss/utilities/_mixins.scss","../scss/layout/_comapny-name.scss"],"names":[],"mappings":"AACQ;AACA;AAER;EACI;EACA;;;AAGJ;ECRI;EDUA;;;AEXJ;EACI;EDIA;ECFA;EACA;;;AAGJ;EACI","file":"main.css"}

@@ -1,3 +1,7 @@
-@mixin text-font {
+@mixin font-body {
     font-family:  'Roboto', sans-serif;
+}
+
+@mixin font-company-name {
+    font-family: 'Syne Mono', monospace, sans-serif !important;
 }

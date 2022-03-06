@@ -1,3 +1,10 @@
 #company-name p{
-    font-size: 1.8em;
+    font-size: 3em;
+    @include font-company-name;
+    letter-spacing: 2px;
+    margin-left: 5px;
+}
+
+.first-half {
+    color: #f78655;
 }
