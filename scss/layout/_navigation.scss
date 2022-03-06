@@ -7,6 +7,7 @@
     right: 0;
     overflow: hidden;
     z-index: 1;
+    display: none;
 }
 
 #nav-bar ul {
@@ -77,11 +78,15 @@ label div:last-child {
     width: 1.9em;
     height: 1.9em;
     border-radius: 45%;
-    
 }
 
 #check-box:checked + label div {
     width: 6px;
     margin-left: 12px;
     margin-bottom: 3px;
-  }
+}
+
+input:checked + #nav-bar {
+    display: block;
+}
+

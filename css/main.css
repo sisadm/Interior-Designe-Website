@@ -34,6 +34,7 @@ body {
   right: 0;
   overflow: hidden;
   z-index: 1;
+  display: none;
 }
 
 #nav-bar ul {
@@ -107,6 +108,10 @@ label div:last-child {
   width: 6px;
   margin-left: 12px;
   margin-bottom: 3px;
+}
+
+input:checked + #nav-bar {
+  display: block;
 }
 
 /*# sourceMappingURL=main.css.map */
