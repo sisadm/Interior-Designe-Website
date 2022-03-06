@@ -1,0 +1,17 @@
+#nav-bar {
+    display: none;
+}
+
+#check-box{
+    width: 3em;   
+    height: 3em;
+    margin: .5em;
+    background-color: black;
+    transform: translateY(-50%);
+    transition: .3s ease transform;
+    cursor: pointer;
+}
+
+#check-box div{ 
+
+}

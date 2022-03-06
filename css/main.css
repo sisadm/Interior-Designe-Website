@@ -10,6 +10,11 @@ body {
   box-sizing: border-box;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
 #company-name p {
   font-size: 3em;
   font-family: "Syne Mono", monospace, sans-serif !important;
@@ -19,6 +24,20 @@ body {
 
 .first-half {
   color: #f78655;
+}
+
+#nav-bar {
+  display: none;
+}
+
+#check-box {
+  width: 3em;
+  height: 3em;
+  margin: 0.5em;
+  background-color: black;
+  transform: translateY(-50%);
+  transition: 0.3s ease transform;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */
