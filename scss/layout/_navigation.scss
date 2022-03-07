@@ -86,7 +86,7 @@ label div:last-child {
     margin-bottom: 3px;
 }
 
-nav div:first-child #check-box:checked ~ div:last-child #nav-bar{
+#check-box:checked ~ #nav-bar{
     display: block;
 }
 
