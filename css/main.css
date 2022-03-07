@@ -110,7 +110,7 @@ label div:last-child {
   margin-bottom: 3px;
 }
 
-input:checked + #nav-bar {
+#nav-bar > #check-box:checked {
   display: block;
 }
 
