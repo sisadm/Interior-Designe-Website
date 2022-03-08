@@ -50,17 +50,19 @@ label{
     height: 1.8em;
     transition: .3s ease transform;
     cursor: pointer;
-}
 
-label div{ 
-    width: 10px;
-    height: 8px;
-    background-color: $orange-color;
-    margin-left: 0;
-    margin-bottom: 2px;
-    border-radius: 4px;
-    transition: .3s ease width, .3s ease margin-left, 
-                .3s ease margin-bottom, .3s ease background-color;   
+    div{ 
+        width: 10px;
+        height: 8px;
+        background-color: $orange-color;
+        margin-left: 0;
+        margin-bottom: 2px;
+        border-radius: 4px;
+        transition: .3s ease width, .3s ease margin-left, 
+                    .3s ease margin-bottom, .3s ease background-color;   
+    }
+    
+    
 }
 
 label div:first-child {

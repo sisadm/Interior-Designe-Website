@@ -71,7 +71,6 @@ label {
   transition: 0.3s ease transform;
   cursor: pointer;
 }
-
 label div {
   width: 10px;
   height: 8px;
