@@ -60,23 +60,26 @@ label{
         border-radius: 4px;
         transition: .3s ease width, .3s ease margin-left, 
                     .3s ease margin-bottom, .3s ease background-color;   
+
+        &:first-child {
+            width: 2.1em;
+        }
+
+        &:nth-child(2) {
+            width: 1.8em;
+        }
+
+        &:last-child {
+            width: 2.4em;
+            margin-bottom: 0;
+        }
     }
     
+
     
 }
 
-label div:first-child {
-    width: 2.1em;
-}
 
-label div:nth-child(2) {
-    width: 1.8em;
-}
-
-label div:last-child {
-    width: 2.4em;
-    margin-bottom: 0;
-}
 
 #check-box:checked + label {
     transform:  rotate(-90deg);
@@ -85,15 +88,16 @@ label div:last-child {
     height: 2em;
     border-top-right-radius: 45%;
     border-bottom-right-radius: 45%;
+    
+    div {
+        width: 6px;
+        margin-left: 12px;
+        margin-bottom: 3px;
+    }
+
+    & ~ #nav-bar{
+        opacity: 1;
+    }
 }
 
-#check-box:checked + label div {
-    width: 6px;
-    margin-left: 12px;
-    margin-bottom: 3px;
-}
-
-#check-box:checked ~ #nav-bar{
-    opacity: 1;
-}
 

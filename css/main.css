@@ -80,15 +80,12 @@ label div {
   border-radius: 4px;
   transition: 0.3s ease width, 0.3s ease margin-left, 0.3s ease margin-bottom, 0.3s ease background-color;
 }
-
 label div:first-child {
   width: 2.1em;
 }
-
 label div:nth-child(2) {
   width: 1.8em;
 }
-
 label div:last-child {
   width: 2.4em;
   margin-bottom: 0;
@@ -102,14 +99,12 @@ label div:last-child {
   border-top-right-radius: 45%;
   border-bottom-right-radius: 45%;
 }
-
 #check-box:checked + label div {
   width: 6px;
   margin-left: 12px;
   margin-bottom: 3px;
 }
-
-#check-box:checked ~ #nav-bar {
+#check-box:checked + label ~ #nav-bar {
   opacity: 1;
 }
 
