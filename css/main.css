@@ -37,14 +37,12 @@ body {
   z-index: 1;
   opacity: 0;
 }
-
 #nav-bar ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 #nav-bar ul li {
   display: list-item;
   margin-top: 4em;
