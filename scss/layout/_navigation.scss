@@ -26,9 +26,6 @@
 }
 
 
-
-
-
 // menu button 
 .check-div {
     margin: 1em;
@@ -94,6 +91,10 @@ label{
 
     & ~ #nav-bar{
         opacity: 1;
+    }
+
+    & > nav {
+        background-color: rebeccapurple;
     }
 }
 

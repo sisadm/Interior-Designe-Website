@@ -107,5 +107,8 @@ label div:last-child {
 #check-box:checked + label ~ #nav-bar {
   opacity: 1;
 }
+#check-box:checked + label > nav {
+  background-color: rebeccapurple;
+}
 
 /*# sourceMappingURL=main.css.map */
