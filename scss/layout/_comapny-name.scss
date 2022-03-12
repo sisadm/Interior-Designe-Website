@@ -1,8 +1,14 @@
+#company-name {
+    position: relative;
+}
+
 #company-name p{
+    position: absolute;
     font-size: 3em;
     @include font-company-name;
     letter-spacing: 2px;
     margin-left: 5px;
+    z-index: 2;
 }
 
 .first-half {

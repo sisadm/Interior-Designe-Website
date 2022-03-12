@@ -15,11 +15,17 @@ body {
   justify-content: space-between;
 }
 
+#company-name {
+  position: relative;
+}
+
 #company-name p {
+  position: absolute;
   font-size: 3em;
   font-family: "Syne Mono", monospace, sans-serif !important;
   letter-spacing: 2px;
   margin-left: 5px;
+  z-index: 2;
 }
 
 .first-half {
