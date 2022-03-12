@@ -18,7 +18,6 @@ body {
 #company-name {
   position: relative;
 }
-
 #company-name p {
   position: absolute;
   font-size: 3em;
@@ -27,8 +26,7 @@ body {
   margin-left: 5px;
   z-index: 2;
 }
-
-.first-half {
+#company-name .first-half {
   color: #f78655;
 }
 
