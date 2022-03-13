@@ -6,3 +6,37 @@
     font-family: 'Syne Mono', monospace, sans-serif !important;
 }
 
+// keyframe
+
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+      @content;
+    }
+    @keyframes #{$animation-name} {
+      @content;
+    }
+  };
+
+  @mixin animation($str) {
+    -webkit-animation: #{$str};
+    animation: #{$str};
+  };
+
+
+  @include keyframes(fade-in) {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @include keyframes(fade-out) {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
