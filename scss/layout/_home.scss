@@ -1,0 +1,27 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    height: 25em;
+
+    #first-div {
+        width: 70%;
+    }
+
+    #home-small-pic {
+        display: none;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    #home-big-pic {
+        height: 70%;
+        width: 70%;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

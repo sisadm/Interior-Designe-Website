@@ -148,4 +148,28 @@ label div:last-child {
   background-color: rebeccapurple;
 }
 
+.home {
+  display: flex;
+  justify-content: space-between;
+  height: 25em;
+}
+.home #first-div {
+  width: 70%;
+}
+.home #home-small-pic {
+  display: none;
+}
+.home #home-small-pic img {
+  height: 100%;
+  width: 100%;
+}
+.home #home-big-pic {
+  height: 70%;
+  width: 70%;
+}
+.home #home-big-pic img {
+  height: 100%;
+  width: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */
