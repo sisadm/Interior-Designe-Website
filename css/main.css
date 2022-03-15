@@ -152,6 +152,7 @@ label div:last-child {
   display: flex;
   justify-content: space-between;
   height: 25em;
+  margin: 2em 0.5em;
 }
 .home #first-div {
   width: 70%;
@@ -170,6 +171,13 @@ label div:last-child {
 .home #home-big-pic img {
   height: 100%;
   width: 100%;
+}
+.home h1 {
+  font-size: 1.8em;
+  margin: 0.2em 0;
+}
+.home p {
+  width: 80%;
 }
 
 /*# sourceMappingURL=main.css.map */
