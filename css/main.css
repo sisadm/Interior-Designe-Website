@@ -154,8 +154,13 @@ label div:last-child {
   height: 25em;
   margin: 2em 0.5em;
 }
+.home #H1div {
+  width: 100%;
+  flex-grow: 4;
+}
 .home #first-div {
   width: 70%;
+  flex-grow: 1;
 }
 .home #home-small-pic {
   display: none;
@@ -167,6 +172,7 @@ label div:last-child {
 .home #home-big-pic {
   height: 50%;
   width: 70%;
+  flex-grow: 1;
 }
 .home #home-big-pic img {
   height: 100%;
