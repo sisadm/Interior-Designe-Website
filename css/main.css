@@ -150,10 +150,19 @@ label div:last-child {
 
 .home {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  -webkit-display: flex;
+  -moz-display: flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
   justify-content: space-between;
   height: 25em;
   margin: 2em 0.5em;
-  flex-wrap: wrap;
 }
 .home #H1div {
   width: 100%;

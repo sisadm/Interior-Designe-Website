@@ -1,9 +1,15 @@
 .home {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    @include prefix((
+        display: flex,
+        flex-wrap: wrap,
+        justify-content: space-between
+    ), webkit moz);
     height: 25em;
     margin: 2em .5em;
-    flex-wrap: wrap;
+    
 
     #H1div {
         width: 100%;
