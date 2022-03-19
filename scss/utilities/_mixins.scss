@@ -6,6 +6,25 @@
     font-family: 'Syne Mono', monospace, sans-serif !important;
 }
 
+
+// Prefix
+
+@mixin prefix($declarations, $prefixes: ()) {
+  @each $property, $value in $declarations {
+    @each $prefix in $prefixes {
+      #{'-' + $prefix + '-' + $property}: $value;
+    }
+    // Output standard non-prefixed declaration
+    #{$property}: $value;
+  }
+}
+
+
+
+
+
+
+
 // keyframe
 
 @mixin keyframes($animation-name) {
@@ -40,3 +59,5 @@
       opacity: 0;
     }
   }
+
+
