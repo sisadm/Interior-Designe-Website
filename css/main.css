@@ -78,6 +78,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  -webkit-display: flex;
+  -ms-display: flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
 }
 #nav-bar ul li {
   display: list-item;
@@ -91,6 +100,12 @@ body {
   width: 2.5em;
   height: 1.8em;
   display: flex;
+  justify-content: center;
+  -webkit-display: flex;
+  -ms-display: flex;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
   justify-content: center;
 }
 
