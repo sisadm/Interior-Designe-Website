@@ -153,6 +153,7 @@ label div:last-child {
   justify-content: space-between;
   height: 25em;
   margin: 2em 0.5em;
+  flex-wrap: wrap;
 }
 .home #H1div {
   width: 100%;
