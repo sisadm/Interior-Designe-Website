@@ -148,7 +148,7 @@ label div:last-child {
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  background-color: rgba(148, 136, 136, 0.623);
+  background-color: black;
   width: 2em;
   height: 2em;
   border-radius: 45%;
