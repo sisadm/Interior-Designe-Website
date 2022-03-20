@@ -7,13 +7,13 @@
         flex-wrap: wrap,
         justify-content: space-between
     ), webkit ms);
-    height: 19em;
+    height: 22em;
     margin: 2em .5em;
     
 
     #H1div {
         width: 100%;
-        height: 2em;
+        height: 5em;
     }
 
     #first-div {
@@ -21,10 +21,14 @@
         @include prefix((
             display: flex
         ), webkit ms);
+
+        #text-div {
+          width: 40%;  
+        }
     }
 
     #home-small-pic {
-        width: 100%;
+        width: 60%;
         img {
             height: 100%;
             width: 100%;
