@@ -192,9 +192,13 @@ label div:last-child {
   -webkit-display: flex;
   -ms-display: flex;
   display: flex;
+  height: 16em;
 }
 .home #first-div #text-div {
   width: 40%;
+}
+.home #first-div #text-div h1 {
+  margin-top: 0;
 }
 .home #home-small-pic {
   width: 60%;
