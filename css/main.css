@@ -180,11 +180,12 @@ label div:last-child {
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  height: 25em;
+  height: 19em;
   margin: 2em 0.5em;
 }
 .home #H1div {
   width: 100%;
+  height: 2em;
 }
 .home #first-div {
   display: flex;
