@@ -6,24 +6,24 @@
         display: flex,
         flex-wrap: wrap,
         justify-content: space-between
-    ), webkit moz);
+    ), webkit ms);
     height: 25em;
     margin: 2em .5em;
     
 
     #H1div {
         width: 100%;
-        flex-grow: 4;
     }
 
     #first-div {
-        width: 70%;
-        flex-grow: 1;
+        display: flex;
+        @include prefix((
+            display: flex
+        ), webkit ms);
     }
 
     #home-small-pic {
-        display: none;
-
+        width: 100%;
         img {
             height: 100%;
             width: 100%;
@@ -31,9 +31,9 @@
     }
 
     #home-big-pic {
+        display: none;
         height: 50%;
         width: 70%;
-        flex-grow: 1;
         img {
             height: 100%;
             width: 100%;
