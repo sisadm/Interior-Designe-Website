@@ -206,6 +206,11 @@ label div:last-child {
 }
 .home #first-div #text-div #started-p {
   margin-top: 11.5px;
+  text-align: center;
+  color: #f78655;
+}
+.home #first-div #text-div #started-p span {
+  border-bottom: 3px solid #f78655;
 }
 .home #home-small-pic {
   width: 60%;

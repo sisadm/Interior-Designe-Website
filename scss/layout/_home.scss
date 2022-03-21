@@ -35,6 +35,12 @@
             }   
             #started-p {
                 margin-top: 11.5px;
+                text-align: center;
+                color: $orange-color;
+
+                span {
+                    border-bottom: 3px solid $orange-color;
+                }
             }
         }
 
@@ -63,11 +69,5 @@
         margin: .2em 0;
     }
 
-    
-
-    #text-div {
-
-
-    }
     
 }
