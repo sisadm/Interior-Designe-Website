@@ -41,6 +41,11 @@
                 width: 80%;
                 line-height: 1.2;
             }   
+
+            p:nth-child(2) {
+                margin-top: -2em;
+            }
+
             #started-p {
                 text-align: center;
                 color: $orange-color;

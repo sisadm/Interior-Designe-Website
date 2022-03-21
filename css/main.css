@@ -216,6 +216,9 @@ label div:last-child {
   width: 80%;
   line-height: 1.2;
 }
+.home #first-div #text-div p:nth-child(2) {
+  margin-top: -2em;
+}
 .home #first-div #text-div #started-p {
   text-align: center;
   color: #f78655;
