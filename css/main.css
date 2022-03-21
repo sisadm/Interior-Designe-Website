@@ -200,6 +200,13 @@ label div:last-child {
 .home #first-div #text-div h1 {
   margin-top: -0.2em;
 }
+.home #first-div #text-div p {
+  width: 80%;
+  line-height: 1.2;
+}
+.home #first-div #text-div #started-p {
+  margin-top: 11.5px;
+}
 .home #home-small-pic {
   width: 60%;
 }
@@ -219,9 +226,6 @@ label div:last-child {
 .home h1 {
   font-size: 1.8em;
   margin: 0.2em 0;
-}
-.home p {
-  width: 80%;
 }
 
 /*# sourceMappingURL=main.css.map */
