@@ -250,6 +250,12 @@ label div:last-child {
 .benefits div {
   width: 75%;
   margin: 0 auto;
+  text-align: center;
+}
+.benefits div p {
+  width: 80%;
+  margin: 1em auto;
+  font-size: 0.8em;
 }
 
 /*# sourceMappingURL=main.css.map */
