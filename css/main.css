@@ -252,6 +252,9 @@ label div:last-child {
   margin: 0 auto;
   text-align: center;
 }
+.benefits div h1 {
+  font-size: 1.8em;
+}
 .benefits div p {
   width: 80%;
   margin: 1em auto;
